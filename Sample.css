@@ -208,10 +208,6 @@ p {
 .navbar-menu{
   display: none;
 }
-.navbar-menu{
-  display: flex;
-  gap: 30px;
-}
 /* sec2 */
 
 .sec2{
@@ -541,6 +537,7 @@ p {
     opacity: 1;
   }
 }
+
 
 
 
