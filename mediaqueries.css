@@ -266,14 +266,14 @@ margin-top: 0px;
   align-items: center;
   gap: 15px;
   padding: 10px;
-  width: 100%;
+  width: 120%;
 }
 
 .sec5-2 a{
   display: flex;
   align-items: center;
   gap: 10px;
-  width: 80%
+  width: 100%
   text-align: center;
   
 }
@@ -325,6 +325,7 @@ margin-top: 0px;
     font-size: 10px; /* smaller copyright on mobile */
   }
 }
+
 
 
 
