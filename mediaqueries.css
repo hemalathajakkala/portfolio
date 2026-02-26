@@ -1,0 +1,309 @@
+@media (max-width:1024px) {
+  .sec1 {
+    flex-direction: column;
+  margin-top: 50px;
+height: 90%;
+margin-bottom: 50px;
+margin-top: 20px;
+}
+p{
+  text-align: center;
+}
+.sec1-1 {
+  margin-left: 0px;
+}
+  .sec1-2 {
+  align-items: center;
+  padding-bottom: 50px;
+}
+}
+
+/* in other mobile table */
+@media (max-width: 767px) {
+  .sec1 {
+    flex-direction: column;
+}
+h1{
+  font-size: 40px;
+}
+p{
+  text-align: center;
+}
+.sec1-1{
+  margin-top: 50px;
+}
+.sec1-1  img{
+ width: 300px;
+}
+  .sec1-2 {
+  align-items: center;
+}
+}
+
+@media (max-width:1024px) {
+  .logo {
+margin-left: 30px;
+margin-top: 0px;
+}
+
+  .navbar{
+    display: none;
+  }
+
+  .navbar-menu{
+    display: flex;
+  }
+
+  .hamburger{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    width: 20px;
+    z-index: 2000;
+  }
+
+  .navbar-menu .menu-bar{
+    position: fixed;
+    right: -250px;   /* Hide outside screen */
+    top: 60px;
+    background-color: #7d3d7d;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    transition: .3s ease;
+    width: 200px;
+    z-index: 1000;
+  }
+
+  .navbar-menu .menu-bar.show{
+    right: 0;   /* Show menu */
+  }
+.menu-bar{
+  margin-left: -200px;
+}
+  .menu-bar li a{
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 10px;
+    text-align: center;
+  }
+
+.dark-mode 
+.menu-bar li a:hover{
+ color: #8f7027 !important;  
+  text-decoration: underline;
+  text-decoration-color: #8f7027;
+  text-underline-offset: 6px;
+}
+}
+
+@media (max-width:767px) {
+  .logo{
+    text-wrap: nowrap;
+  }
+  .navbar-menu .logo{
+    margin-top: 25px ;
+    font-size: 25px;
+    padding-left: 10px; 
+  }
+}
+
+@media (max-width:1024px) {
+  .sec2-1{
+  
+  margin-top: 40px; 
+}
+
+  .sec2-2{
+    margin-top: 30px;
+    flex-direction: column;
+}
+.sec2-2-1{
+  margin-left: 0px;
+}
+.sec2-2-2 {
+  align-items: center;
+}
+}
+
+@media (max-width:767px) {
+  .sec2{
+    height: 100%;
+  }
+  .sce2-2{
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  .sec2-2-1{
+    margin-left: 0px;
+  }
+  .sec2-2-1 img{
+    width: 250px;
+
+  }
+  .sec2-2-2{
+    align-items: center;
+  }
+  .sec2-2-2-1{
+    flex-direction: column;
+  }
+}
+
+/* mobile devices */
+@media (max-width:1024px) {
+  .sec3{  
+    height: 100%;
+  gap: 60px;
+    
+  }
+  .sec3-1{
+     margin-top: 50%;
+  }
+  .sec3-2{ 
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  .box2{
+  width: 450px;
+  gap: 30px;  
+}
+.box2 > :nth-child(1){
+  font-size: 28px;
+}
+.skills{
+  gap: 50px;
+}
+.skills-1{
+  gap: 15px;
+}
+.skills-1 img{
+  width: 30px;
+}
+.skills-1-2 >:nth-child(1){
+  font-size: 20px;
+}
+}
+ 
+/* other devices */
+
+@media (max-width:767px) {
+  .sec3{
+    padding-top: 0px;
+  }
+  .sec3-2{ 
+    flex-direction: column;
+    padding-bottom: 0px;
+  }
+  .box2{
+  width: 300px;
+  gap: 30px;  
+}
+.box2 > :nth-child(1){
+  font-size: 18px;
+}
+.skills{
+  gap: 25px;
+}
+.skills-1{
+  gap: 10px;
+}
+.skills-1 img{
+  width: 30px;
+}
+.skills-1-2 >:nth-child(1){
+  font-size: 20px;
+}
+}
+
+@media(max-width:1024px) {
+  .sec4{
+    height: 100%;
+  gap: 60px;
+}
+  .sec4-2{
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+.box3{
+  width: 500px;
+  gap: 20px;
+}
+.box3 img{
+  width: 400px;
+}
+.box3-2 >:nth-child(1){
+  font-size: 30px;
+  font-weight: 600;
+}
+}
+/* mobile devices */
+@media(max-width:767px) {
+  .sec4{
+  gap: 60px;
+}
+.box3{
+  width: 300px;
+  gap: 15px;
+}
+.box3 img{
+  width: 250px;
+}
+.box3-2 >:nth-child(1){
+  font-size: 20px;
+}
+}
+
+@media (max-width:767px) {
+  .sec5-2{
+  gap: 20px;
+  padding: 10px;
+}
+}
+
+@media (max-width:1024px){
+  .sec6 > :nth-child(1){
+  text-align: center;
+}
+.footer-menu{
+  list-style: none;
+  
+  gap: 50px;
+  font-size: 20px;
+}
+.footer-menu li a{
+    display: block;
+    font-weight: 300;
+   
+    text-align: center;
+  }
+
+ .dark-mode .footer-menu{
+  background-color: #222;
+}
+
+.dark-mode .footer-menu li a{
+  color: white !important;
+}
+.dark-mode .footer-menu li a:hover{
+ color: #8f7027 !important;  
+  text-decoration: underline;
+  text-decoration-color: #8f7027;
+  text-underline-offset: 6px;
+}
+}
+@media (max-width:767px) {
+  .sec6 > :nth-child(1){
+  gap: 30px;
+ 
+  
+  text-align: center;
+}
+.sec6 > :nth-child(2){
+  font-size: 10px;
+}
+}
