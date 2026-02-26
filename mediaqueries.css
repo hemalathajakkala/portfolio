@@ -50,25 +50,38 @@ margin-top:0;
 }
 
 }
-
 @media screen and (max-width: 600px) {
 
+/* All sections */
 .sec1,
 .sec2,
 .sec3,
 .sec4,
 .sec5{
-flex-direction:column;
+display:flex !important;
+flex-direction:column !important;
 align-items:center;
 text-align:center;
 }
 
+/* Inner layouts */
 .sec2-2,
 .sec3-2,
 .sec4-2{
-flex-direction:column;
+display:flex !important;
+flex-direction:column !important;
+align-items:center;
+gap:20px;
 }
 
+/* Boxes full width */
+.box1,
+.box2,
+.box3{
+width:100% !important;
+}
+
+/* Images */
 img{
 max-width:100%;
 height:auto;
@@ -100,3 +113,4 @@ text-decoration: underline;
 text-decoration-color:#8f7027;
 text-underline-offset:6px;
 }
+
