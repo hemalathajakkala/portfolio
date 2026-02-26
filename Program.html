@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> My Portfolio </title>
+  <!-- Boxicons -->
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+   <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+ integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- Your CSS -->
+  <link rel="stylesheet" href="Sample.css"/>
+</head>
+<!--Body-->
+<body> 
+      <!-- in lapotop--> 
+       <!-- Home section Navbar--> 
+          <nav class="navbar">
+            <div class="logo">Hemalatha Jakkala</div> 
+            <ul class ="menu-bar">
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#about" > About </a></li>
+            <li><a href="#skills" > Skills </a></li>
+            <li><a href="#projects" > Projects </a></li>
+            <li><a href="#contact" > Contact </a></li>
+            </ul> 
+            <div class = "toggle" onclick="darkMode()"> 
+              <i class="fa-regular fa-moon toggle-icon"></i>
+            </div>
+         </nav>
+          <!-- Responsive Navbar--> 
+         <nav class="navbar-menu">
+            <div class="logo">Hemalatha Jakkala</div>
+            <div class = "hamburger"><i class="fa-solid fa-bars"></i></div>
+            <ul class ="menu-bar">
+            <li><a href="#home" >Home</a></li>
+            <li><a href="#about" > About </a></li>
+            <li><a href="#skills" > Skills </a></li>
+            <li><a href="#projects" > Projects </a></li>
+            <li><a href="#contact" > Contact </a></li>
+            </ul> 
+            <div class = "toggle" onclick="darkMode()"> 
+              <i class="fa-regular fa-moon toggle-icon"></i>
+            </div>
+         </nav>
+         <!-- Section 1 Home--> 
+         <section class="sec1" id="home">
+          <div class = sec1-1><img src="images/home.png" alt=" Hemalatha Profile "></div>
+          <div class="sec1-2">
+            <span class="sec1-2-1">Hello, I'm</span>
+            <h1>Hemalatha</h1>
+            <span class="sec1-2-2">Aspiring FullStack Developer </span>
+            <p>I am a dedicated Java fresher with a solid understanding of Core Java, JDBC, SQL, HTML, CSS, and JavaScript.
+              With strong problem-solving abilities and a keen interest in software development, 
+              I am committed to continuously learning and contributing effectively to a professional development team.
+            </p>
+            <div class="btns">
+              <a href="images/resume.pdf" download ="esume">Downlorad CV</a>
+              <button onclick="location.href='./#contact'">Contact Info</button></div>
+            <div class="sci">
+
+            <a href="https://www.linkedin.com/in/jakkala-hemalatha-756534252/" target="_blank">
+            <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://github.com/hemalathajakkala" target="_blank">
+            <i class='bx bxl-github'></i>
+            </a>
+            </div>
+          </div>
+         </section>
+
+         <!-- Section 2 / About--> 
+          <section class="sec2" id="about">
+           
+              <div class="sec2-1">
+                <span>Get To Know More</span>
+                <h1>About Me</h1>
+              </div>
+              <div class="sec2-2">
+                <div class="sec2-2-1">
+                  <img src="images/home.png" alt="Hemalatha">
+                </div>
+                <div class="sec2-2-2">
+                      <div class="sec2-2-2-1">
+                        <div class="box">
+                          <img src="images/education.png" alt="">
+                          <span>Education</span>
+                          <span>MCA</span>
+                          <span>Master of Computer Application</span>
+                        </div>                       
+                      </div>
+                      <p class="p1">I am a dedicated Java fresher with a solid understanding of Core Java, JDBC, SQL, HTML, CSS, and JavaScript. 
+                        With strong problem-solving abilities and a keen interest in software development, 
+                        I am committed to continuously learning and contributing effectively to a professional development team.
+                      </p>
+                </div>
+              </div>
+          </section>
+          <!-- Section 3 / Skills--> 
+           <section class="sec3" id="skills">
+             
+            <div class="sec3-1">
+              <span>Explore My</span>
+              <h1>Skills</h1>
+            </div>
+            <div class="sec3-2">
+              <div class="box2">
+                <span>Frontend Developement</span>
+                <div class="skills"> 
+                  <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>HTML</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>CSS</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                   <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>JavaScript</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                   <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>ReactJS</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             <div class="box2">
+                <span>Backend Developement</span>
+                <div class="skills"> 
+                  <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>Java</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                  <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>SQL</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                   <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>JDBC</span>
+                      <span>Intermediate</span>
+                    </div>
+                  </div>
+                   <div class="skills-1">
+                    <img src="images/checkmark.png" alt="">
+                    <div class="skills-1-2">
+                      <span>Spring Boot</span>
+                      <span>Basics</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+
+           <!-- Section 4 / Projects--> 
+           <section class="sec4" id="projects">
+            
+            <div class="sec4-1">
+              <span>Browse My Recent</span>
+              <h1>Projects</h1>
+            </div>
+            <div class="sec4-2">
+              <div class="box3">
+                <img src="images/project1.png" alt="">
+                <div class="box3-2">
+                  <span>Portfolio Website</span>
+                  <div class="btns">
+                    <button>GitHub</button>
+                    <button>Live Demo</button>
+                  </div>
+                </div>
+              </div>
+               <div class="box3">
+                <img src="images/project2.png" alt="">
+                <div class="box3-2">
+                  <span> Project Two</span>
+                  <div class="btns">
+                    <button>GitHub</button>
+                    <button>Live Demo</button>
+                  </div>
+                </div>
+              </div>
+               <div class="box3">
+                <img src="images/project3.png" alt="">
+                <div class="box3-2">
+                  <span>Project Three</span>
+                  <div class="btns">
+                    <button>GitHub</button>
+                    <button>Live Demo</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
+
+            <!-- Section 5 / Contact--> 
+             <section class="sec5" id="contact">
+              
+                <div class="sec5-1">
+                  <span>Get in Touch</span>
+                  <h1>Contact Me</h1>
+                </div>
+                <div class="sec5-2">
+                  <a class="a1" href="https://mail.google.com/mail/u/0/#inbox">
+                    <img src="images/email.png" alt="">
+                    <span>hemalathajakkala4@gmail.com</span>
+                  </a>
+                  <a class="a2" href="https://www.linkedin.com/in/jakkala-hemalatha-756534252/">
+                    <img src="images/LinkedIn.png" alt="">
+                    <span>LinkedIn</span>
+                  </a>
+                </div>
+             </section>
+
+              <!-- Section 6 / Contact--> 
+               <section class="sec6" id="footer">
+                 <ul class ="footer-menu">
+                    <li><a href="#home" >Home</a></li>
+                    <li><a href="#about" > About </a></li>
+                    <li><a href="#skills" > Skills </a></li>
+                    <li><a href="#projects" > Projects </a></li>
+                    <li><a href="#contact" > Contact </a></li>
+                  </ul> 
+                  <span>copyright &#169; 2026 Amelia Sravs. All Rights Reserved</span>
+               </section>
+
+          <script src="script.js"></script>
+
+     </body>
+</html>
