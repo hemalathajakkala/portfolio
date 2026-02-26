@@ -266,7 +266,8 @@ margin-top: 0px;
   align-items: center;
   gap: 15px;
   padding: 10px;
-  width: 120%;
+  width: 100%;
+   max-width: 400px; 
 }
 
 .sec5-2 a{
@@ -275,7 +276,7 @@ margin-top: 0px;
   gap: 10px;
   width: 100%
   text-align: center;
-  
+  padding: 8px 0; 
 }
 
 .sec5-2 img{
@@ -325,6 +326,7 @@ margin-top: 0px;
     font-size: 10px; /* smaller copyright on mobile */
   }
 }
+
 
 
 
