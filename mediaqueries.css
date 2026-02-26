@@ -321,3 +321,81 @@ margin-top: 0px;
 
 }
 
+@media (max-width:768px){
+
+/* Navbar */
+.navbar{
+  display:none;
+}
+
+.navbar-menu{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  width:100%;
+  padding:20px;
+}
+
+/* Sections spacing */
+.sec1,
+.sec2,
+.sec3,
+.sec4,
+.sec5{
+  padding:20px;
+  height:auto;
+  text-align:center;
+}
+
+/* Profile section */
+.sec1{
+  flex-direction:column;
+  gap:20px;
+}
+
+/* About section */
+.sec2{
+  flex-direction:column;
+  gap:20px;
+}
+
+/* Skills section */
+.sec3-2{
+  flex-direction:column;
+  align-items:center;
+}
+
+/* Projects section */
+.sec4-2{
+  flex-direction:column;
+  align-items:center;
+}
+
+/* Contact section */
+.sec5{
+  flex-direction:column;
+  gap:20px;
+}
+
+/* Boxes */
+.box1,
+.box2,
+.box3{
+  width:100%;
+}
+
+/* Images */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* Buttons */
+.btns{
+  flex-direction:column;
+  gap:10px;
+}
+
+}
+
+
