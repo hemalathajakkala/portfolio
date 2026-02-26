@@ -204,6 +204,10 @@ p {
   background-color: #7d3d7d;
   color: black;
 }
+
+.navbar-menu{
+  display: none;
+}
 /* sec2 */
 
 .sec2{
@@ -533,4 +537,5 @@ p {
     opacity: 1;
   }
 }
+
 
