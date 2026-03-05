@@ -260,23 +260,24 @@ margin-top: 0px;
 
 @media (max-width:767px){
 
+/* Email Linkedin box spacing */
 .sec5-2{
+  max-width: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  padding: 10px;
-  width: 100%;
-   max-width: 280px; 
+  gap: 5px;      /* Email LinkedIn gap */
+  padding: 10px;  /* Box lo gap */
+  width: 85%;
+  margin: auto;
 }
 
+/* Email Linkedin links spacing */
 .sec5-2 a{
   display: flex;
   align-items: center;
-  gap: 10px;
-  width: 100%
-  text-align: center;
-  padding: 6px 0; 
+  gap: 5px;
+  padding: 10px;
 }
 
 .sec5-2 img{
@@ -326,6 +327,7 @@ margin-top: 0px;
     font-size: 10px; /* smaller copyright on mobile */
   }
 }
+
 
 
 
